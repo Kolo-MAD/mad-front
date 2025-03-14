@@ -1,0 +1,1 @@
+// here goes supabase setup

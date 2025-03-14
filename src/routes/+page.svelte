@@ -4,6 +4,7 @@
 	import { page } from '$app/state';
 	import { goto } from '$app/navigation';
 	import * as m from '$lib/paraglide/messages.js';
+	import Exampler from '$lib/components/Exampler.svelte';
 
 	function switchToLanguage(newLanguage: AvailableLanguageTag) {
 		const canonicalPath = i18n.route(page.url.pathname);
@@ -13,6 +14,7 @@
 </script>
 
 <h1>{m.description()}</h1>
+<Exampler />
 <div>
 	<button onclick={() => switchToLanguage('en')}>en</button>
 	<button onclick={() => switchToLanguage('pl')}>pl</button>
