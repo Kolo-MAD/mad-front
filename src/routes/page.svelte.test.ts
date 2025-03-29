@@ -24,4 +24,9 @@ describe('/+page.svelte', () => {
 		expect(screen.getByText('en')).toBeInTheDocument();
 		expect(screen.getByText('pl')).toBeInTheDocument();
 	});
+
+	test('should render exampler component', () => {
+		render(Page);
+		expect(screen.getByText('Exampler is here').toBeInTheDocument);
+	});
 });

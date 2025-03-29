@@ -11,10 +11,12 @@
 		const localisedPath = i18n.resolveRoute(canonicalPath, newLanguage);
 		goto(localisedPath);
 	}
+
+  let { data } = $props();
 </script>
 
 <h1>{m.description()}</h1>
-<Exampler />
+<Exampler members={data?.props?.members} />
 <div>
 	<button onclick={() => switchToLanguage('en')}>en</button>
 	<button onclick={() => switchToLanguage('pl')}>pl</button>
