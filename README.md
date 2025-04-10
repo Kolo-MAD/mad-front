@@ -36,3 +36,8 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+
+## Figma project 
+
+Project made in Figma you can find [`here`](https://github.com/sveltejs/cli](https://www.figma.com/design/cAboi4j8IFo2QknHKEOGCn/MAD---project?node-id=0-1&t=kWxcqoSOoDQ7JkVK-1)).
+
